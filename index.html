@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Cash Counting</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="Cash Couting">
+     <meta name="keywords" content="cash counting">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/rd.css">
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+    
+
+
+    <div class="menu-bg"></div>
+    <div class="menu-burger">☰</div>
+
+    <div class="menu-items">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-offset-2 col-md-4 col-sm-6">
+            <h1>Cash Counting</h1>
+             <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+               
+            </ul>
+           </div>
+
+           <div class="col-md-4 col-sm-6">
+             <address >
+               <h1>Contact us</h1>
+			  <p style=" font-size: large;">
+			  <i class="fa fa-envelope"></i>
+			   
+			   r.dhamandekar22@gmail.com
+			   </br>
+			   <i class="fa fa-mobile"></i>
+			   9685982223
+			   </p>
+			   
+             </address>
+           </div> 
+
+           <div class="col-md-12 col-sm-12">
+             <ul class="social-icon">
+              <li class="line"></li>
+			   <li><a href="https://www.linkedin.com/in/rdhamandekar/" class="fa fa-linkedin"  target="_blank" ></a></li>
+               <li><a href="https://www.facebook.com/r.dhamandekar22" class="fa fa-facebook"  target="_blank" ></a></li>
+               <li><a href="https://www.instagram.com/rahuldhamandekar/" class="fa fa-instagram"  target="_blank" ></a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+    </div>
+
+
+     <!-- HOME -->
+     <section id="home">
+        
+          <div class="container">
+		  <div class="overlay"></div>
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="home-info">
+                              <h1>Note Counting</h1>
+                              <div class="subscribe-form">
+                                <form action="" method="post" name='frmCal' id="frmCal">
+								<div class="table-responsive">
+								
+								<table class="table table-bolder tblTextFront " >
+								
+								<tr>
+								<td>
+								
+								2000 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td >
+								<span id="mulTot0">0</span>
+								</td>
+								
+								
+								<td style=" border-left: solid 1px #f00;">
+								
+								1000 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot1">0</span>
+								</td>
+								
+								</tr>
+								<tr>
+								<td>
+								
+								500 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot2">0</span>
+								</td>
+								
+								
+								<td style=" border-left: solid 1px #f00;">
+								
+								200 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control input-sm" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot3">0</span>
+								</td>
+								
+								</tr>
+								<tr>
+								<td>
+								
+								100 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot4">0</span>
+								</td>
+								<td style=" border-left: solid 1px #f00;">
+								
+								50 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot5">0</span>
+								</td>
+								
+								</tr>
+								<tr>
+								<td>
+								
+								20 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot6">0</span>
+								</td>
+								
+								
+								<td style=" border-left: solid 1px #f00;">
+								
+								10 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot7">0</span>
+								</td>
+								
+								</tr>
+								
+								<!---
+								<tr>
+								<td>
+								
+								5
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot8">0</span>
+								</td>
+								
+								</tr>
+								<tr>
+								<td>
+								
+								2
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot9">0</span>
+								</td>
+								
+								</tr>
+								<tr>
+								<td>
+								
+								1 
+								
+								</td>
+								<td>
+								X
+								</td>
+								<td>
+								  <input type="text" name="qty[]" class="form-control" onkeyup="calculateSUM()">
+								</td>
+								
+								<td>
+								=
+								</td>
+								
+								<td>
+								<span id="mulTot10">0</span>
+								</td>
+								
+								</tr>
+								--->
+								
+                                </table>
+
+	<center>							<h1>
+	<span id="fldTot" style="color: #f00;">0</span>
+</h1>								
+</center>
+                                </div>
+								
+								</form>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/custom.js"></script>
+<script>
+function calculateSUM() {
+ var cashvalues = [2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
+  var total = 0;
+  var f = document.getElementById("frmCal").elements;
+
+  for (i=0;i<f.length;i++) {
+    if (f[i].value == null || f[i].value == "")
+{
+cntVAL = 0;
+}   else
+{
+cntVAL = f[i].value;
+} 
+  MulVal = cashvalues[i] * cntVAL;
+	document.getElementById("mulTot"+i).innerHTML = MulVal;
+    total += MulVal;
+  }
+  document.getElementById("fldTot").innerHTML = Math.round(total);
+}
+</script>
+</body>
+</html>
